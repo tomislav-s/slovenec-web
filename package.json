@@ -1,0 +1,11 @@
+{
+  "name": "tomislav-slovenec",
+  "version": "1.0.0",
+  "description": "Tomislav Slovenec homepage",
+  "scripts": {
+    "start": "harp server --port $PORT"
+  },
+  "dependencies": {
+    "harp": "*"
+  }
+}
