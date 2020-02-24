@@ -96,17 +96,16 @@ body {
 .technologies {
   padding: 5px 0 0 100%;
   font-size: 14px;
-  max-width: 100%;
   overflow: hidden;
+  width: 100%;
   box-sizing: content-box;
 }
 
 .technologies__list {
   display: inline-flex;
   margin: 0;
-  padding: 0;
+  padding: 0 100% 0 0;
   list-style-type: none;
-  padding-right: 100%;
   box-sizing: content-box;
   animation: ticker infinite linear 30s;
 }
@@ -118,7 +117,7 @@ body {
   margin-right: 10px;
   padding: 5px 10px;
 
-  display: flex;
+  display: inline-flex;
   align-items: center;
 
   white-space: nowrap;
