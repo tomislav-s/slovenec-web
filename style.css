@@ -49,6 +49,10 @@ body {
   overflow: hidden;
 }
 
+.main {
+  overflow: hidden;
+}
+
 /* Blocks */
 .bio {
   font-size: 25px;
