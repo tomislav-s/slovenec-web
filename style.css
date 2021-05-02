@@ -90,6 +90,7 @@ body {
 .nav__link {
   text-decoration: none;
   color: inherit;
+  transition: font-variation-settings 0.3s;
 }
 
 .nav__link.auto-animate {
@@ -131,6 +132,10 @@ body {
 @media (min-width: 1024px) {
   .nav {
     font-size: 150x;
+  }
+
+  .nav__link:hover {
+    font-variation-settings: "wght" 400 !important;
   }
 
   .technologies {
